@@ -73,3 +73,29 @@ body {
   grid-area: footer;
 }
   
+.main-nav ul {
+  margin-left: 50px;
+}
+
+.main-nav ul li {
+  margin-bottom: 5px;
+  list-style: none;
+  border-radius: 1px;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  border-radius: 5px;
+  border: green;
+  font-size: 25px;
+  transition: 1s;
+}
+
+.main-nav ul li a:hover{
+  border-radius: 1px;
+  border: palegreen;
+  border-width: 1px;
+  font-size: 30px;
+}
+
+
